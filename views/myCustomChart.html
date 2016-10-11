@@ -1,0 +1,24 @@
+<md-card>
+<md-toolbar md-scroll-shrink="true">
+        <div class="md-toolbar-tools">
+            <span class="my-chart-header">
+                {{chart.primary.header}}
+            </span>
+            <span flex="">
+            </span>
+            <md-button aria-label="Go Back" class="md-fab md-mini" id="{{chart.uid}}" ng-click="buttonOnClick($event)" ng-if="chart.temp">
+                <md-icon id="{{chart.uid}}" md-svg-icon="img/arrow_left_18px.svg">
+                </md-icon>
+            </md-button>
+        </div>
+    </md-toolbar>
+    <div>
+        <canvas chart-click="clickHandler" chart-colors="chart.primary.colors" chart-data="chart.primary.data" chart-labels="chart.primary.labels" chart-options="chart.primary.options" class="chart chart-pie" id="{{chart.uid}}">
+            <md-tooltip>
+                Ctrl + to navigate to
+            </md-tooltip>
+        </canvas>
+    </div>
+</md-card>
+
+

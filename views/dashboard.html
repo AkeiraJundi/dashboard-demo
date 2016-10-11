@@ -1,0 +1,14 @@
+<div layout="row">
+    <div flex="">
+        <div gridster="gridsterOpts">
+            <ul>
+                <li gridster-item="chart" ng-repeat="chart in charts">
+                    <div>
+                        <my-chart button-click="backClick" info="chart" on-click="onClick">
+                        </my-chart>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

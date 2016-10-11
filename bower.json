@@ -1,0 +1,19 @@
+{
+  "name": "dashboard-chart-demo",
+  "description": "Simple demo on how to use drilldowns using chart.js",
+  "main": "app.js",
+  "authors": [
+    "Shayne Weerakoon"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-gridster": "^0.13.15"
+  }
+}

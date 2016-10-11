@@ -1,0 +1,55 @@
+<html lang="en">
+    <head>
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+            <!-- Angular Material style sheet -->
+            <link href="node_modules/angular-material/angular-material.css" rel="stylesheet">
+                <link href="bower_components/angular-gridster/dist/angular-gridster.min.css" rel="stylesheet"/>
+                <!-- css -->
+                <link href="views/css/style.css" rel="stylesheet"/>
+            </link>
+        </meta>
+    </head>
+    <body ng-app="myApp" ng-cloak="">
+        <div class="container">
+            <div ng-view="">
+            </div>
+        </div>
+        <script src="node_modules/jquery/dist/jquery.js">
+        </script>
+        <script src="node_modules/angular/angular.js">
+        </script>
+        <script src="node_modules/angular-aria/angular-aria.js">
+        </script>
+        <script src="node_modules/angular-animate/angular-animate.js">
+        </script>
+        <script src="node_modules/angular-messages/angular-messages.js">
+        </script>
+        <script src="node_modules/angular-route/angular-route.js">
+        </script>
+        <script src="node_modules/angular-material/angular-material.js">
+        </script>
+        <script src="bower_components/javascript-detect-element-resize/jquery.resize.js">
+        </script>
+        <script src="bower_components/angular-gridster/dist/angular-gridster.min.js">
+        </script>
+        <script src="node_modules/chart.js/dist/Chart.min.js">
+        </script>
+        <script src="node_modules/angular-chart.js/dist/angular-chart.min.js">
+        </script>
+        <!-- app.js -->
+        <script src="app.js">
+        </script>
+        <!-- directives -->
+        <script src="directives/myChart.js">
+        </script>
+        <script src="directives/myBarChart.js">
+        </script>
+        <!-- controllers -->
+        <script src="controllers/dashboardCtrl.js">
+        </script>
+        <!-- servives -->
+        <script src="services/dashboardService.js">
+        </script>
+        <!-- js -->
+    </body>
+</html>
